@@ -60,6 +60,12 @@
   text-align: center;
 }
 
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .iphone {
   padding-top: 50px;
 }
@@ -67,8 +73,7 @@
 .what__table {
   width: 69%;
   text-align: center;
-  display: inline-block;
-  vertical-align: middle;
+  float: right;
 }
 
 .what__titel {
