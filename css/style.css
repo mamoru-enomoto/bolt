@@ -65,22 +65,19 @@
 }
 
 .what__table {
-  display: table;
-  width: 100%;
   text-align: center;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .what__titel {
-  display: table-cell;
-  vertical-align: middle;
   font-size: 24px;
   color: #fff;
   padding-bottom: 30px;
+  word-break: break-all;
 }
 
 .what__text {
-  display: table-cell;
-  vertical-align: middle;
   font-size: 20px;
   color: #fff;
 }
