@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+.header {
+  width: 100%;
+  background-color: #fff;
+}
+
+.titel {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.section {
+  width: 100%;
+  background-color: #74cfae;
+}
+
+.article {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.section__road {
+  width: 100%;
+  background-color: #4e4e4e;
+}
+
+.sns__inner {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.footer {
+  width: 100%;
+  background-color: #74cfae;
+}
+
+.inner {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.hedaer__inner {
+  padding: 15px;
+}
+
+.theme {
+  padding-top: 250px;
+  padding-bottom: 20px;
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+  text-align: center;
+}
+
+.theme__text {
+  padding-bottom: 250px;
+  font-size: 30px;
+  color: #c0c0c0;
+  text-align: center;
+}
+
+.iphone {
+  padding-top: 50px;
+}
+
+.what__table {
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+
+.what__titel {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 24px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.what__text {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 20px;
+  color: #fff;
+}
+
+.work__titel {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-size: 24px;
+  color:  #4e4e4e;
+  text-align: center;
+}
