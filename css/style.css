@@ -40,13 +40,12 @@
   width: 1100px;
 }
 
-.hedaer__inner {
-  padding: 15px;
+.hedaer__logo {
+  padding: 15px 0 15px 0;
 }
 
 .theme {
-  padding-top: 250px;
-  padding-bottom: 20px;
+  padding: 250px 0 20px 0;
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
@@ -60,10 +59,11 @@
   text-align: center;
 }
 
-.clearfix {
-  content: "";
-  display: block;
-  clear: both;
+.what__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .iphone {
@@ -72,15 +72,14 @@
 
 .what__table {
   width: 69%;
+  box-sizing: border-box;
   text-align: center;
-  float: right;
 }
 
 .what__titel {
   font-size: 24px;
   color: #fff;
-  padding-bottom: 30px;
-  word-break: break-all;
+  padding-bottom: 35px;
 }
 
 .what__text {
@@ -89,9 +88,69 @@
 }
 
 .work__titel {
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding: 60px 0 40px 0;
   font-size: 24px;
-  color:  #4e4e4e;
   text-align: center;
+}
+
+.work__img__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.work__img {
+  margin: 0 100px 80px 0;
+  width:calc(33.3333333% - 100px);
+}
+
+.work__img:nth-child(3n) {
+  margin-right: 0;
+}
+
+.work__text {
+  width: 49%;
+  text-align: center;
+  padding: 90px 0 70px 0;
+  margin: 0 auto;
+}
+
+.skills__titel {
+  padding: 70px 0 40px 0;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.skills__img__list {
+  display: flex;
+  justify-content: center;
+}
+
+.skills__img {
+  margin: 0 180px 100px 0;
+}
+
+.skills__img p {
+  padding-top: 20px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.sns__list {
+  text-align: center;
+}
+
+.sns__list li {
+  display: inline-block;
+  padding: 200px 0px 200px 0;
+  color: #74cfae;
+}
+
+.footer__inner {
+  padding: 20px 0 25px 0;
+  color: #fff;
+  text-align: right;
 }

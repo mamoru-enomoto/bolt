@@ -18,7 +18,9 @@
 
     <header class="hedaer">
      <div class="inner hedaer__inner"></div>
-     <i class="fas fa-bolt"></i>
+     <div class="hedaer__logo">
+      <i class="fas fa-bolt fa-2x"></i>
+     </div>
     </header> 
 
     <main> 
@@ -34,7 +36,7 @@
       </div>
 
       <section class="section">
-        <div class="inner what__inner clearfix">
+        <div class="inner what__inner">
           <div class="iphone">
             <img src="img/iphone.png">
           </div>
@@ -54,18 +56,21 @@
           <div class="work__titel">
             <h2>our latest work</h2>
           </div>
-        </div>
-        <ul class="work__img__list">
-          <li class="thumb"><img src="img/01.jpg"></li>
-          <li class="thumb"><img src="img/02.jpg"></li>
-          <li class="thumb"><img src="img/03.jpg"></li>
-          <li class="thumb"><img src="img/04.jpg"></li>
-          <li class="thumb"><img src="img/05.jpg"></li>
-          <li class="thumb"><img src="img/06.jpg"></li>
-        </ul>
-        <div class="work__text">
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-        </div>
+          <ul class="work__img__list">
+            <li class="work__img"><img src="img/01.jpg"></li>
+            <li class="work__img"><img src="img/02.jpg"></li>
+            <li class="work__img"><img src="img/03.jpg"></li>
+            <li class="work__img"><img src="img/04.jpg"></li>
+            <li class="work__img"><img src="img/05.jpg"></li>
+            <li class="work__img"><img src="img/06.jpg"></li>
+          </ul>
+          <div class="work__text">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+          </div>
+          <div class="email__box">
+
+          </div>
+        </div>  
       </article>
 
       <section class="section__road">
@@ -74,22 +79,29 @@
             <h2>our skills</h2>
           </div>
         </div>
-        <ul>
-          <li><img src="img/circle_01.png"></li>
-          <li><img src="img/circle_02.png"></li>
-          <li><img src="img/circle_03.png"></li>
-          <li><img src="img/circle_04.png"></li>
+        <ul class="skills__img__list">
+          <li class="skills__img"><img src="img/circle_01.png"><p>JavaScript</p></li>
+          <li class="skills__img"><img src="img/circle_02.png"><p>Bootstrap</p></li>
+          <li class="skills__img"><img src="img/circle_03.png"><p>WordPress</p></li>
+          <li class="skills__img"><img src="img/circle_04.png"><p>PhotoShop</p></li>
         </ul>
       </section>
 
       <nav class="inner sns__inner">
-        <p>sns</p>
+        <ul class="sns__list">
+          <li><i class="fab fa-facebook-f fa-3x"></i></li>
+          <li><i class="fab fa-dribbble fa-3x"></i></li>
+          <li><i class="fab fa-twitter fa-3x"></i></li>
+          <li><i class="fas fa-envelope fa-3x"></i></li>
+        </ul>
       </nav>
 
     </main>
 
     <footer class="footer">
-      <div class="inner"></div>
+      <div class="inner footer__inner">
+        <p>Crafted with <i class="fa fa-heart"></i> by BlackTie.co.</p>
+      </div>
     </footer>
 
   </body>
