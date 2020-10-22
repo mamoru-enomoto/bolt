@@ -25,7 +25,7 @@
   background-color: #4e4e4e;
 }
 
-.sns__inner {
+.sns__road {
   width: 100%;
   background-color: #f2f2f2;
 }
@@ -40,8 +40,22 @@
   width: 1100px;
 }
 
+.hedaer__inner {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .hedaer__logo {
   padding: 15px 0 15px 0;
+}
+
+.hedaer__but {
+  text-decoration: none;
+  font-size: 12px;
+  padding: 14px 12px;
+  background-color: #74cfae;
+  color: #fff;
 }
 
 .theme {
@@ -109,11 +123,25 @@
   margin-right: 0;
 }
 
+.work__block {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .work__text {
-  width: 49%;
+  width: 48%;
+  padding: 90px 90px 70px 0;
   text-align: center;
-  padding: 90px 0 70px 0;
   margin: 0 auto;
+}
+
+.email__but {
+  text-decoration: none;
+  font-size: 12px;
+  padding: 14px 20px;
+  background-color: #74cfae;
+  color: #fff;
 }
 
 .skills__titel {
@@ -125,15 +153,12 @@
 
 .skills__img__list {
   display: flex;
-  justify-content: center;
-}
-
-.skills__img {
-  margin: 0 180px 100px 0;
+  justify-content: space-around;
 }
 
 .skills__img p {
   padding-top: 20px;
+  margin-bottom: 100px;
   font-size: 16px;
   color: #fff;
   text-align: center;
