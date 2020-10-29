@@ -141,9 +141,9 @@
 
 .work__text {
   width: 48%;
-  padding: 90px 90px 70px 0;
+  padding: 90px 0px 70px 0;
+  margin-right: 90px;
   text-align: center;
-  margin: 0 auto;
 }
 
 .email__but {
@@ -185,8 +185,11 @@
   padding: 200px 0px 200px 0;
 }
 
-.sns__list li {
+.sns__link {
   color: #74cfae;
+}
+
+.sns__list li {
   transition: 0.3s;
   text-align: center;
   width: 185px;
