@@ -182,14 +182,15 @@
 .sns__list {
   display: flex;
   justify-content: center;
-  text-align: center;
   padding: 200px 0px 200px 0;
 }
 
 .sns__list li {
   color: #74cfae;
   transition: 0.3s;
+  text-align: center;
   width: 185px;
+  padding: 23px 0 23px 0;
 }
 
 .sns__list li:hover {
