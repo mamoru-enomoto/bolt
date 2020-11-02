@@ -10,12 +10,12 @@
   background-color: #f2f2f2;
 }
 
-.section {
+.waht__container {
   width: 100%;
   background-color: #74cfae;
 }
 
-.article {
+.work__container {
   width: 100%;
   background-color: #f2f2f2;
 }
@@ -127,12 +127,9 @@
   transition: 0.3s;
 }
 
-.work__img:nth-child(1) {
-  margin-left: 0;
-}
-
-.work__img:nth-child(4n) {
+.work__img:nth-child(n+3) :nth-child(-n+6) {
   margin-top: 80px;
+  margin-left: 0;
 }
 
 .work__img:hover {
