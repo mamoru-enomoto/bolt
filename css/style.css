@@ -127,9 +127,12 @@
   transition: 0.3s;
 }
 
-.work__img:nth-child(n+3) :nth-child(-n+6) {
-  margin-top: 80px;
+.work__img:nth-child(3n+1) {
   margin-left: 0;
+}
+
+.work__img:nth-child(n+4) {
+  margin-top: 80px;
 }
 
 .work__img:hover {
@@ -138,7 +141,7 @@
 
 .work__block {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
