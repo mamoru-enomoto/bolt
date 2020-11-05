@@ -15,7 +15,7 @@ main {
   padding-top: 15px;
 }
 
-.main__font h1, h2, h3, h4 {
+.main__font {
   font-family: "raleway";
 }
 
