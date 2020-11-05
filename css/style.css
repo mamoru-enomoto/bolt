@@ -1,43 +1,41 @@
 @charset "UTF-8";
 
 .body {
-  font-family: Lato;
-  font-family: Raleway;
+  font-family: "Lato","Raleway";
 }
 
 .header {
   width: 100%;
   background-color: #fff;
   position: fixed;
+  z-index: 1;
+}
+
+.main {
+  padding: 15px 0 15px;
 }
 
 .titel {
-  width: 100%;
   background-color: #f2f2f2;
 }
 
 .waht__container {
-  width: 100%;
   background-color: #74cfae;
 }
 
 .work__container {
-  width: 100%;
   background-color: #f2f2f2;
 }
 
 .section__road {
-  width: 100%;
   background-color: #4e4e4e;
 }
 
 .sns__road {
-  width: 100%;
   background-color: #f2f2f2;
 }
 
 .footer {
-  width: 100%;
   background-color: #74cfae;
 }
 
@@ -48,7 +46,7 @@
 
 .header__inner {
   display: flex;
-  padding: 15px 0 15px 0;
+  padding: 15px 0 15px;
 }
 
 .header__menu {
@@ -69,7 +67,7 @@
 }
 
 .titel__inner {
-  padding: 250px 0 250px 0;
+  padding: 250px 0 250px;
 }
 
 .theme {
@@ -112,7 +110,7 @@
 }
 
 .work__inner {
-  padding: 60px 0 70px 0;
+  padding: 60px 0 70px;
 }
 
 .work__titel {
@@ -126,13 +124,17 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  z-index: 2;
 }
 
 .work__img {
-  display: block;
   margin-left: 100px;
   opacity: 0.7;
   transition: 0.3s;
+}
+
+.work__img a {
+  display: block;
 }
 
 .work__img:nth-child(3n+1) {
@@ -174,13 +176,14 @@
 }
 
 .skills__inner {
-  padding: 70px 0 40px 0;
+  padding: 70px 0 100px;
 }
 
 .skills__titel {
   font-size: 24px;
   text-align: center;
   color: #fff;
+  padding-bottom: 70px;
 }
 
 .skills__img__list {
@@ -189,7 +192,6 @@
 }
 
 .skills__img p {
-  padding-bottom: 100px;
   margin-top: 20px;
   font-size: 16px;
   color: #fff;
@@ -197,7 +199,7 @@
 }
 
 .sns__inner {
-  padding: 200px 0px 200px 0;
+  padding: 200px 0 200px;
 }
 
 .sns__list {
@@ -207,7 +209,7 @@
 
 .sns__link {
   color: #74cfae;
-  padding: 23px 0 23px 0;
+  padding: 23px 23px;
   display: block;
 }
 
@@ -222,7 +224,7 @@
 }
 
 .footer__inner {
-  padding: 20px 0 25px 0;
+  padding: 20px 0 25px;
   color: #fff;
   text-align: right;
 }
