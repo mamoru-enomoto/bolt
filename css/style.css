@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-  font-family: "Lato";
+  font-family: "lato";
 }
 
 .header {
@@ -11,9 +11,12 @@ body {
   z-index: 1;
 }
 
-.main {
-  padding: 15px 0 15px;
-  font-family: "Raleway";
+main {
+  padding-top: 15px;
+}
+
+.main__font {
+  font-family: "raleway";
 }
 
 .titel {
