@@ -15,7 +15,7 @@ main {
   padding-top: 15px;
 }
 
-.main__font {
+.main__font h1, h2, h3, h4 {
   font-family: "raleway";
 }
 
@@ -97,7 +97,7 @@ main {
 }
 
 .what__table {
-  width: 69%;
+  width: 60%;
   box-sizing: border-box;
   text-align: center;
 }
@@ -161,7 +161,7 @@ main {
 }
 
 .work__text {
-  width: 48%;
+  width: 42%;
   text-align: center;
 }
 
