@@ -88,6 +88,10 @@ main {
   text-align: center;
 }
 
+.sp {
+  display: none;
+}
+
 .what__inner {
   display: flex;
   flex-wrap: wrap;
@@ -235,6 +239,31 @@ main {
 }
 
 @media screen and (max-width: 767px) {
+
+  .titel {
+    width: 1200px;
+  }
+
+  .waht__container {
+    width: 1200px;
+  }
+  
+  .work__container {
+    width: 1200px;
+  }
+  
+  .section__road {
+    width: 1200px;
+  }
+  
+  .sns__road {
+    width: 1200px;
+  }
+  
+  .footer {
+    width: 1200px;
+  }  
+
   .header__but {
     display: none;
   }
@@ -246,25 +275,30 @@ main {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    width: 10px;
   }
 
   .nav__line {
     position: absolute;
     border: 1px solid #ddd;
     border-radius: 4px;
-    width: 50%;
+    width: 70%;
   }
 
   .nav__line:nth-last-of-type(1) {
-    top: 5px;
+    top: 20px;
   }
 
   .nav__line:nth-last-of-type(2) {
-    top: 10px;
+    top: 14px;
   }
 
   .nav__line:nth-last-of-type(3) {
-    top: 15px;
+    top: 8px;
+  }
+
+  .sp {
+    display: block;
   }
 
   .titel__inner {
@@ -359,7 +393,31 @@ main {
 
 }
 
-@media screen and (max-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+  .titel {
+    width: 1200px;
+  }
+
+  .waht__container {
+    width: 1200px;
+  }
+  
+  .work__container {
+    width: 1200px;
+  }
+  
+  .section__road {
+    width: 1200px;
+  }
+  
+  .sns__road {
+    width: 1200px;
+  }
+  
+  .footer {
+    width: 1200px;
+  }  
 
   .what__inner {
     padding-top: 50px;
