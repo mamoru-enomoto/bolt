@@ -240,29 +240,9 @@ main {
 
 @media screen and (max-width: 767px) {
 
-  .titel {
-    width: 1200px;
+  .inner {
+    width: 97%;
   }
-
-  .waht__container {
-    width: 1200px;
-  }
-  
-  .work__container {
-    width: 1200px;
-  }
-  
-  .section__road {
-    width: 1200px;
-  }
-  
-  .sns__road {
-    width: 1200px;
-  }
-  
-  .footer {
-    width: 1200px;
-  }  
 
   .header__but {
     display: none;
@@ -395,29 +375,9 @@ main {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 
-  .titel {
-    width: 1200px;
+  .inner {
+    width: 97%;
   }
-
-  .waht__container {
-    width: 1200px;
-  }
-  
-  .work__container {
-    width: 1200px;
-  }
-  
-  .section__road {
-    width: 1200px;
-  }
-  
-  .sns__road {
-    width: 1200px;
-  }
-  
-  .footer {
-    width: 1200px;
-  }  
 
   .what__inner {
     padding-top: 50px;
