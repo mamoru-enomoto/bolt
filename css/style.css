@@ -12,18 +12,18 @@ body {
 }
 
 main {
-  padding-top: 15px;
+  padding: 15px 0 15px;
 }
 
 .main__font {
   font-family: "raleway";
 }
 
-.titel {
+.title {
   background-color: #f2f2f2;
 }
 
-.waht__container {
+.what__container {
   background-color: #74cfae;
 }
 
@@ -70,7 +70,7 @@ main {
   color: #333;
 }
 
-.titel__inner {
+.title__inner {
   padding: 250px 0 250px;
 }
 
@@ -106,7 +106,7 @@ main {
   text-align: center;
 }
 
-.what__titel {
+.what__title{
   font-size: 24px;
   color: #fff;
 }
@@ -121,7 +121,7 @@ main {
   padding: 60px 0 70px;
 }
 
-.work__titel {
+.work__title {
   font-size: 24px;
   text-align: center;
 }
@@ -187,7 +187,7 @@ main {
   padding: 70px 0 100px;
 }
 
-.skills__titel {
+.skills__title {
   font-size: 24px;
   text-align: center;
   color: #fff;
@@ -281,7 +281,7 @@ main {
     display: block;
   }
 
-  .titel__inner {
+  .title__inner {
     padding: 160px 0 130px;
   }
 
@@ -300,13 +300,12 @@ main {
   }
 
   .what__table {
-    padding: 20px 0 25px;
+    margin: 20px 0 25px;
     width: 85%;
   }
 
   .what__text {
     margin-top: 35px;
-    width: 0 auto;
   }
 
   .work__inner {
@@ -327,7 +326,7 @@ main {
     margin-top: 0;
   }
 
-  .work__img:nth-child(4) {
+  .work__img:nth-child(3n+1) {
     margin-top: 80px;
   }
 
@@ -385,13 +384,12 @@ main {
   }
 
   .what__table {
-    padding: 20px 0 25px;
-    width: 85%;
+    margin: 20px 0 25px;
+    width: 83%;
   }
 
   .what__text {
     margin-top: 35px;
-    width: 0 auto;
   }
 
   .work__inner {
@@ -412,7 +410,7 @@ main {
     margin-top: 0;
   }
 
-  .work__img:nth-child(4) {
+  .work__img:nth-child(3n+1) {
     margin-top: 80px;
   }
 
