@@ -8,39 +8,33 @@ body {
   width: 100%;
   background-color: #fff;
   position: fixed;
-  z-index: 1;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+a {
+  display: inline-block;
 }
 
 main {
-  padding: 15px 0 15px;
+  padding-top: 62px; 
 }
 
 .main__font {
   font-family: "raleway";
 }
 
-.title {
+.title, .work__container, .sns__road{
   background-color: #f2f2f2;
 }
 
-.what__container {
+.what__container, .footer {
   background-color: #74cfae;
-}
-
-.work__container {
-  background-color: #f2f2f2;
 }
 
 .section__road {
   background-color: #4e4e4e;
-}
-
-.sns__road {
-  background-color: #f2f2f2;
-}
-
-.footer {
-  background-color: #74cfae;
 }
 
 .inner {
@@ -141,10 +135,6 @@ main {
   transition: 0.3s;
 }
 
-.work__img a {
-  display: block;
-}
-
 .work__img:nth-child(3n+1) {
   margin-left: 0;
 }
@@ -155,6 +145,10 @@ main {
 
 .work__img:hover {
   opacity: 1;
+}
+
+img {
+  vertical-align: bottom;
 }
 
 .work__block {
@@ -238,11 +232,100 @@ main {
   text-align: right;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 1200px) {
+  
+}
+
+@media screen and (max-width: 1199px) {
 
   .inner {
     width: 97%;
   }
+
+  .what__inner {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .what__table {
+    margin: 20px 0 25px;
+    width: 83%;
+  }
+
+  .what__text {
+    margin-top: 35px;
+  }
+
+  .work__inner {
+    padding: 60px 0px 70px;
+  }
+
+  .work__img__list {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .work__img {
+    margin: 0 auto;
+  }
+
+  .work__img:nth-child(n+4) {
+    margin-top: 0;
+  }
+
+  .work__img:nth-child(3n+1) {
+    margin-top: 80px;
+  }
+
+  .work__img:nth-child(1) {
+    margin-top: 0;
+  }
+
+  .work__block {
+    display: block;
+    margin-top: 80px;
+  }
+
+  .work__text {
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  .email__box {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .email__but {
+    margin-left: 0;
+  }
+
+  .skills__img__list {
+    display: block;
+    text-align: center;
+  }
+
+  .skills__img:nth-child(n+2) {
+    margin-top: 88px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+  .email__box {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .email__but {
+    margin-left: 0;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
 
   .header__but {
     display: none;
@@ -294,70 +377,6 @@ main {
     margin-top: 20px;
   }
 
-  .what__inner {
-    padding-top: 50px;
-    text-align: center;
-  }
-
-  .what__table {
-    margin: 20px 0 25px;
-    width: 85%;
-  }
-
-  .what__text {
-    margin-top: 35px;
-  }
-
-  .work__inner {
-    padding: 60px 0px 70px;
-  }
-
-  .work__img__list {
-    display: block;
-    margin-top: 40px;
-    text-align: center;
-  }
-
-  .work__img {
-    margin: 0 auto;
-  }
-
-  .work__img:nth-child(n+4) {
-    margin-top: 0;
-  }
-
-  .work__img:nth-child(3n+1) {
-    margin-top: 80px;
-  }
-
-  .work__block {
-    display: block;
-    margin-top: 80px;
-  }
-
-  .work__text {
-    margin: 0 auto;
-    width: 75%;
-  }
-
-  .email__box {
-    margin-top: 40px;
-    text-align: center;
-  }
-
-  .email__but {
-    margin-left: 0;
-  }
-
-  .skills__img__list {
-    display: block;
-    text-align: center;
-  }
-
-  .skills__img:nth-child(n+2) {
-    margin-top: 88px;
-  }
-
   .sns__inner {
     padding: 50px 0 50px;
   }
@@ -372,80 +391,7 @@ main {
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
 
-  .inner {
-    width: 97%;
-  }
-
-  .what__inner {
-    padding-top: 50px;
-    text-align: center;
-  }
-
-  .what__table {
-    margin: 20px 0 25px;
-    width: 83%;
-  }
-
-  .what__text {
-    margin-top: 35px;
-  }
-
-  .work__inner {
-    padding: 60px 0px 70px;
-  }
-
-  .work__img__list {
-    display: block;
-    margin-top: 40px;
-    text-align: center;
-  }
-
-  .work__img {
-    margin: 0 auto;
-  }
-
-  .work__img:nth-child(n+4) {
-    margin-top: 0;
-  }
-
-  .work__img:nth-child(3n+1) {
-    margin-top: 80px;
-  }
-
-  .work__block {
-    display: block;
-    margin-top: 80px;
-  }
-
-  .work__text {
-    margin: 0 auto;
-    width: 75%;
-  }
-
-  .email__box {
-    margin-top: 40px;
-    text-align: center;
-  }
-
-  .email__but {
-    margin-left: 0;
-  }
-
-  .skills__img__list {
-    display: block;
-    text-align: center;
-  }
-
-  .skills__img:nth-child(n+2) {
-    margin-top: 88px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  
-}
 
 
 
